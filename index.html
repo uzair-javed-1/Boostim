@@ -1,181 +1,370 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boostim</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
-        rel="stylesheet">
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+     background-color: #FFFFFF;
+     font-size: 16px;
+}
+
+.Container{ 
+
+
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+    align-items: center;
+}
+
+ nav{
+    position:sticky;
+    top:0;
+    background-color: white;
+    z-index: 9;
+    
+}
 
+.middle-Navbar{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    
+   
+
+
+}
+
+.left-NavBar{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+
+}
+
+.logo img{
+
+    margin-top:15px;
+   margin-right:0px;
+}
+.bigText{
 
+    margin-left:0px;
+    font-weight: bold;
+    font-family: Manrope;
+    font-size: 24px;
+    color:020407;
+    padding: 20px 10px;
+}
+.middle-Navbar ul{
+
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.middle-Navbar ul li{
+
+    font-family: "Plus Jakarta Sans", serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+
+    padding: 23px 8px;
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+
+    
+   
+   
+}
+
+.right-Navbar{
+ width: 20%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+
+}
+
+/* .right-Navbar img{
+
+    
+} */
+
+.btn-On-Nav{
+
+    padding: 10px 32px;
+    border-radius: 20px;
+    stroke: 1px #010205 100%;
+    background:none;
+
+}
+
+.circle{
+   
+    margin-left: 4px;
+    width: 50px;
+    height: 50px;
+    background-color: #192F70;
+    border-radius: 50%;
+  
 
-</head>
+}
 
-<body>
 
+.circle img{
+    
 
+    margin: 12px 10px 10px 12px;
+}
 
-    <nav>
+.arrow-down img{
+    margin-right:20px;
+    padding:23px 1px;
+    display: inline-block;
+    margin-left:0px;
+    
+    
+}
 
-        <div class="Container">
+.displaySection{
 
+    display: flex;
+    flex-direction: row;
+}
 
+.leftDisplay{
 
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width:50%;
+    /* background: red; */
+}
 
-            <div class="left-NavBar">
 
+.headerDisplay{
+    font-family: Plus Jakarta Sans;
+    font-size: 72px;
+    font-weight: 600;
+    color:#010205;
+    padding: 30px;
+    margin:auto;
+    line-height: 70px;
+    
+}
 
+.smallDisplay{
 
-                <div class="logo">
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    color:#878C91;
+    padding: 30px;
+    margin:auto;
 
-                    <img src="images/Group 2.png" alt="Boostim Logo" />
-                </div>
+}
 
-                <div class="bigText">
-                    <p>boostim</p>
+.bigButton{
+   
+    display: inline-flex;
+    border-radius: 50px;
+    padding:15px 35px;
+    font-weight: bold;
+    justify-content: start;
+    color:white;
+    align-items: center;
+    vertical-align: center;
+    background: #000;
+   
 
-                </div>
-            </div>
+}
 
+.margin{
 
+    margin-left: 20px;
+    
+}
 
-            <div class="middle-Navbar">
+.margin a{
 
-                <ul>
+    margin-left:20px;
+    color:#010205;
+    font-weight: 600;
+}
 
+.brands{
 
-                    <li> Services </li>
-                    <div class="arrow-down"><img src="images/chevron-down.png"></div>
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    
+}
 
-                    <li> Agency </li>
-                    <div class="arrow-down"><img src="images/chevron-down.png"></div>
+.BrandItem{
 
-                    <li> Case Study </li>
-                    <div class="arrow-down"><img src="images/chevron-down.png"></div>
+    justify-content: space-around;
+    margin:auto;
 
-                    <li> Resources </li>
-                    <div class="arrow-down"><img src="images/chevron-down.png"></div>
+}
 
-                    <li> Contact </li>
+.p{
+
+    
+
+    font-size: 14px;
+    font-weight: 600;
+
+    width:150px;
+}
+
 
-
-                </ul>
-            </div>
-
-
-
-            <div class="right-Navbar">
-                <div>
-                    <button class="btn-On-Nav"> Get Started</button>
-                </div>
-                <div class="circle">
-                    <img src="images/bell.png" alt="Notification" />
-                </div>
-
-            </div>
-
-        </div>
-
-    </nav>
-
-    <section id="displaySectionBar">
-
-        <div class="displaySection">
-
-
-            <div class="leftDisplay">
-
-                <p class="headerDisplay">Stay ahead of the curve with our forward-thinking </p>
-
-                <p class="smallDisplay">An award-winning SEO agency with disciplines in digital marketing, design, and
-                    website development. focused on understanding you.
-
-
-
-                <div class="margin">
-
-                    <button class="bigButton">
-                        <pre>Schedule Call   </pre><img src="images/arrow-right.png">
-                    </button>
-                    <a href="#">View Case Study</a>
-                </div>
-
-
-                </p>
-
-
-
-                <div class="brands">
-                    <div class="BrandItem p">
-                        <p>Trusted by the world's biggest brands</p>
-
-                    </div>
-
-                    <div class="BrandItem">
-                        <img src="images/Company logo (1).png" />
-                    </div>
-                    <div class="BrandItem">
-                        <img src="images/Company logo.png" />
-                    </div>
-                    <div class="BrandItem">
-                        <img src="images/Vector.png" />
-                    </div>
-
-
-
-                </div>
-            </div>
-
-            <div class="row">
-
-                    <div class="designup">
-
-                        <img src="images/Group 427320837.png">
-                        <img src="images/Rectangle 23805.png">
-
-                    </div>
-                    <div class="designup">
-                        <div class="DisplayBlock">
-                            <p>
-                                230+
-                            </p>
-                            <p>
-                                some big companies that we work with, and trust us very much
-                            </p>
-                            <div id="myProgress">
-                                <div id="myBar"></div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-                
-
-                    <div class=" sections2">
-                        
-                        <div class="centerBlock">
-                        <!-- <img src="images/Group 427320848.png"> -->
-                        <p> Drive More Traffic and Sales </p>
-
-                        <p>    Drive more traffic and product sales </p>
-                    </div>
-                    
-                </div>
-
-
-            </div>
-
-            
-        </div>
-
-    </section>
-</body>
-
-</html>
+.RightDisplay{
+    display: grid;
+    direction: row;
+ 
+    background: gray;
+    padding:20px;
+    vertical-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index:-1;
+
+    
+}
+
+
+
+
+.designup img{
+    position:absolute;
+      
+
+}
+
+.designup img:nth-child(1)
+{
+position:absolute;
+ z-index: 2;
+ margin-left:100px;
+ margin-top: -45px;
+ overflow: hidden;
+
+}
+/* .designup img:nth-child(2)
+{
+
+
+ margin-top: 50px;
+
+} */
+
+.DisplayBlock{
+    
+    background-color: #F0F0F0;
+    width: 259px;
+    height: 281px;
+    border-radius: 15px;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+
+.DisplayBlock p:nth-child(1){
+    font-size: 84px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.DisplayBlock p:nth-child(2){
+    font-size: 16px;
+    font-weight: medium;
+   padding:20px;
+}
+
+
+
+#myProgress {
+    width: 80%;
+    background-color: #D9D9D9;
+    
+    margin: 20px;
+  }
+  
+  #myBar {
+    width: 70%;
+    height: 7px;
+    background-color: #000;
+  }
+
+
+  .row{
+    margin-top: 50px;
+    width: 50%;
+   
+    display: grid;
+    grid-template-rows: 1fr,2fr;
+    grid-template-columns: repeat(2,1fr);
+    
+    row-gap: 10px;
+    column-gap: 2px;
+  
+    justify-content: center;
+  }
+
+  
+
+  .sections2{
+grid-template-columns: 2fr;
+
+vertical-align: left;
+    align-items: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    background: url(../images/Group\ 427320848.png);
+    background-repeat: no-repeat;
+    
+
+ 
+  }
+
+  .centerBlock{
+
+    margin: auto;
+    padding-top: 20px;
+    padding:40px;
+    color:white 
+  }
+
+  .centerBlock p:first-child{
+
+   font-size: 14px;
+   font-weight: 600;
+   margin-top:3px;
+   margin-left:50px;
+   padding-bottom: 20px;
+   
+  }
+
+  .centerBlock p:nth-child(2){
+
+    margin-top: 20px;
+
+    font-size: 32px;
+    font-weight: 600;
+    max-width: 280px;
+    
+   }
