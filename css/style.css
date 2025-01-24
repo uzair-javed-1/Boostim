@@ -277,7 +277,7 @@ position:absolute;
     height: 281px;
     border-radius: 15px;
     justify-content: center;
-    vertical-align: center;
+    
     align-items: center;
     
 }
@@ -285,6 +285,7 @@ position:absolute;
 .DisplayBlock p:nth-child(1){
     font-size: 84px;
     font-weight: bold;
+    text-align: center;
 }
 
 .DisplayBlock p:nth-child(2){
@@ -318,7 +319,7 @@ position:absolute;
     grid-template-columns: repeat(2,1fr);
     
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 2px;
   
     justify-content: center;
   }
