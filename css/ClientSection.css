@@ -1,0 +1,113 @@
+.ClientSections{
+
+    display: grid;
+    grid-template-columns:2 ;
+    grid-template-rows: 2;
+    place-items: center;
+    margin:100px 20px 0px 20px;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+
+.TextClient{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* background-color: green; */
+}
+
+.ClientName{
+    width: 100%;
+
+  grid-column-start: 1; 
+  grid-column-end: 2;
+    /* background-color: red; */
+}
+
+.circleImage{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.50);
+    background: rgba(0, 0, 0, 0.20);
+
+    margin-right:20px
+
+}
+
+.client{
+    
+ 
+    margin-top: 50px;
+    justify-items: center;
+    align-items: center;
+    display: inline-flex;
+    align-content: flex-start;
+  
+   
+}
+
+.buttonLR{
+
+    display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 42px;
+border-radius: 70px;
+border: 1px solid #010205;
+margin: 0px 20px;
+}
+
+.NextClient{
+
+    display: flex;
+    color: #010205;
+leading-trim: both;
+text-edge: cap;
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%; /* 28.8px */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+
+justify-content: right;
+align-items: center;
+
+margin-left: 430px;
+}
+
+.dimText{
+
+    color: rgba(1, 2, 5, 0.40);
+leading-trim: both;
+text-edge: cap;
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%;
+}
+
+.TextClient{
+
+    font-size: 36px;
+    color:#010205;
+}
+
+.ClientName_Designation{
+
+    line-height: 28px;
+}
+
+.dark{
+
+    background: black;
+}
