@@ -1,0 +1,185 @@
+.servicesMainPart{
+
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin-top: 50px;
+    margin-top: 50px;
+    
+}
+/* 
+
+.serviceBlockLeft .serviceBlockRight{
+   
+    width: 48%;
+    padding: 20px;
+  
+
+
+} */
+.serviceBlockLeft{
+
+    margin-top: 20px;
+}
+
+
+.serviceBlockRight button{
+
+    margin-top: 40px;
+}
+
+.servicesLowerPart{
+
+    display: grid;
+    width:90%;
+    margin: auto;
+    grid-template-rows: repeat(1,1fr);
+    /* grid-template-columns: 25% 25% 25%; */
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 25px;
+    
+    direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.serviceblock{
+    margin: auto;
+
+  
+    background: #FFFFFF;
+    border-radius: 20px;
+ 
+
+}
+
+.serviceblockUpperPart {
+
+    display: flex;
+    flex-direction: row;
+    margin: auto;   
+    padding: 15px 10px 20px 20px;
+   
+   
+}
+
+.serviceblockLowerPart{
+
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+
+.moveLeft{
+  
+
+align-self: center;
+justify-self: left;
+width:70%;
+
+
+
+
+}
+
+.moveRight{
+    
+
+justify-self: right;
+
+
+text-align: right;
+align-self: center;
+
+width: 20%;
+
+
+
+}
+
+.serviceHeading{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding:5px 15px 20px;
+    font-size: 26px;
+    font-weight: 600px;
+    /* margin-top: 50px; */
+    color: #010205;
+  
+    
+  
+}
+
+
+.buttonLR2{
+
+    display: flex;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 42px; */
+    height: 55px;
+    border-radius: 70px;
+    border: 1px solid #010205;
+    margin: 10px 20px;
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    color:#010205;
+    font-weight: bold;
+    }
+
+    .littleCircle{
+   
+        /* margin: 4px; */
+        width: 20px;
+        height: 20px;
+        background-color: #192F70;
+        border-radius: 50%;
+      
+    
+    }
+
+    .bluelight{
+
+        background-color: #45A7DE;
+    }
+
+    .orange{
+
+        background-color: #EA5F38;
+    }
+
+    .purpleLight{
+
+        background-color: #6A26F1;
+    }
+
+    .littleText{
+
+        font-family: Plus Jakarta Sans;
+        font-size: 14px;
+        font-weight: 500;
+        color:#878C91;
+        padding: 15px;
+        text-align: justify;
+    
+        line-height: 20px;
+    
+    }
+
+    .littleTextfortop{
+
+        font-family: Plus Jakarta Sans;
+        font-size: 14px;
+        font-weight: 500;
+        color:#878C91;
+        padding: 15px;
+        line-height: 20px;
+    
+    }
