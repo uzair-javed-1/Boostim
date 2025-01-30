@@ -130,7 +130,7 @@ font-weight: bold;
 
 .FaqQAInnerContainer{
 
-margin-top:50px;
+margin:100px 0px 60px 0px;
 }
 
 
@@ -145,3 +145,11 @@ margin-top:50px;
 
     display: none;
 }
+
+.questionAnswerLast{
+    /* margin: 10px 10px; */
+   
+    text-align: justify;
+    padding:10px 40px 0px 40px;
+    margin-top:10px;
+}   
