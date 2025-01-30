@@ -69,11 +69,16 @@ letter-spacing: -2.4px;
 
 .MarginLeft{
 
-    margin-left: 20px;
+    margin-left: 22px;
 }
 
 .marginLLittle{
     margin-left: 5px;
+}
+
+.maxWidth{
+
+    max-width: 140px;
 }
 
 .size{
