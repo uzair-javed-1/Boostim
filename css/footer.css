@@ -60,6 +60,20 @@ letter-spacing: -2.4px;
 .flex{
 
     display: flex;
+    align-self: left;
+    justify-self: left;
+    
+}
+
+
+
+.MarginLeft{
+
+    margin-left: 20px;
+}
+
+.marginLLittle{
+    margin-left: 5px;
 }
 
 .size{
@@ -156,3 +170,4 @@ margin:40px 0px;
 
     margin:80px 0px 70px 0px;
 }
+
