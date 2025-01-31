@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: row;
     width: 99%;
+    flex-wrap: wrap;
+    
 
     
     background:  url(../images/footer_design.png)  black 0% 0% / 78.125px 78.125px repeat;
@@ -62,6 +64,7 @@ letter-spacing: -2.4px;
     display: flex;
     align-self: left;
     justify-self: left;
+    flex-wrap: wrap;
     
 }
 
