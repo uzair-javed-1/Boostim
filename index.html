@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/FaqSection.css">
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
@@ -52,18 +53,18 @@
 
                 <ul>
 
+                  
+                    <li> Services   <img class="arrow-down"  src="./images/chevron-down.png"></li>
+                  
+                    
+                    <li> Agency <img  class="arrow-down" src="./images/chevron-down.png"></li>
+                    
 
-                    <li> Services </li>
-                    <div class="arrow-down"><img src="./images/chevron-down.png"></div>
+                    <li> Case Study <img  class="arrow-down" src="./images/chevron-down.png"></li>
+                    
 
-                    <li> Agency </li>
-                    <div class="arrow-down"><img src="./images/chevron-down.png"></div>
-
-                    <li> Case Study </li>
-                    <div class="arrow-down"><img src="./images/chevron-down.png"></div>
-
-                    <li> Resources </li>
-                    <div class="arrow-down"><img src="./images/chevron-down.png"></div>
+                    <li> Resources <img  class="arrow-down" src="./images/chevron-down.png"></li>
+                    
 
                     <li> Contact </li>
 
@@ -83,7 +84,12 @@
 
             </div>
 
+            <div id="menu-icon">
+            <i class="fa fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+            </div>
         </div>
+
+        
 
     </nav>
 
@@ -572,6 +578,37 @@
 
 
     </section>
+
+    <script>
+
+        var menu_icon=document.getElementById("menu-icon");
+        var middle_Navbar=document.querySelector(".middle-Navbar");;
+
+        var right_Navbar=document.querySelector(".right-Navbar");
+      
+        middle_Navbar.style.display="flex";
+        right_Navbar.style.display="flex";
+        function toggleMenu(){
+
+            if(middle_Navbar.style.display==="none" || right_Navbar.style.display==="none"){
+
+                middle_Navbar.style.display="flex";
+                right_Navbar.style.display="flex";
+            }
+        
+        
+    
+
+            else{
+                middle_Navbar.style.display="none";
+                right_Navbar.style.display="none";
+
+            }
+        }
+
+    </script>
+
+    <script src="https://kit.fontawesome.com/de026f08b9.js" crossorigin="anonymous"></script>
 
 </body>
 
