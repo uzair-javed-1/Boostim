@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/responsiveHeader.css">
+    <link rel="stylesheet" href="./css/middleLowerSectionResponsive.css">
+    <link rel="stylesheet" href="./css/ClientSectionResponsive.css">
+    <link rel="stylesheet" href="./css/FaqSectionResponsive.css">
+    <link rel="stylesheet" href="./css/servicesResponsive.css">
+    <link rel="stylesheet" href="./css/footerResponsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
@@ -53,18 +59,18 @@
 
                 <ul>
 
-                  
-                    <li> Services   <img class="arrow-down"  src="./images/chevron-down.png"></li>
-                  
-                    
-                    <li> Agency <img  class="arrow-down" src="./images/chevron-down.png"></li>
-                    
 
-                    <li> Case Study <img  class="arrow-down" src="./images/chevron-down.png"></li>
-                    
+                    <li> Services <img class="arrow-down" src="./images/chevron-down.png"></li>
 
-                    <li> Resources <img  class="arrow-down" src="./images/chevron-down.png"></li>
-                    
+
+                    <li> Agency <img class="arrow-down" src="./images/chevron-down.png"></li>
+
+
+                    <li> Case Study <img class="arrow-down" src="./images/chevron-down.png"></li>
+
+
+                    <li> Resources <img class="arrow-down" src="./images/chevron-down.png"></li>
+
 
                     <li> Contact </li>
 
@@ -85,11 +91,11 @@
             </div>
 
             <div id="menu-icon">
-            <i class="fa fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+                <img src="./images/navicon.png"   onclick="toggleMenu()"> </i>
             </div>
         </div>
 
-        
+
 
     </nav>
 
@@ -103,7 +109,7 @@
                 <p class="headerDisplay">Stay ahead of the curve with our forward-thinking </p>
 
                 <p class="smallDisplay">An award-winning SEO agency with disciplines in digital marketing, design, and
-                    website development. focused on understanding you.
+                    website development. focused on understanding you.</p>
 
 
 
@@ -116,7 +122,7 @@
                 </div>
 
 
-                </p>
+
 
 
 
@@ -143,14 +149,14 @@
 
             <div class="row">
 
-                <div class="designup">
+                <div class="designup wMob marginLR">
 
                     <img src="./images/Group 427320837.png">
                     <img src="./images/Rectangle 23805.png">
 
                 </div>
-                <div class="designup">
-                    <div class="DisplayBlock">
+                <div class="designup marginLR">
+                    <div class="DisplayBlock wMob">
                         <p>
                             230+
                         </p>
@@ -241,6 +247,7 @@
             </div>
 
         </div>
+
         <div class="secondPart">
 
             <div class="midLowerSectionMainText">
@@ -514,17 +521,21 @@
                     <img class="size" src="./images/Group 2.png" alt="Boostim Logo" />
                     <p class="footerLogo" style="margin-left: 20px;">boostim</p>
 
+
+
+
+                    <p class="footerText">
+
+                        We offers a comprehensive suite of digital marketing services that cover all aspects of our
+                        online
+                        presence. From SEO and social media marketing to content creation and PPC advertising, they have
+                        the
+                        expertise and resources to handle our diverse marketing needs.
+
+
+                    </p>
+
                 </div>
-
-
-                <p class="footerText">
-
-                    We offers a comprehensive suite of digital marketing services that cover all aspects of our online
-                    presence. From SEO and social media marketing to content creation and PPC advertising, they have the
-                    expertise and resources to handle our diverse marketing needs.
-
-
-                </p>
 
                 <div class="icons">
                     <img src="./images/facebook logo.svg">
@@ -581,32 +592,31 @@
 
     <script>
 
-        var menu_icon=document.getElementById("menu-icon");
-        var middle_Navbar=document.querySelector(".middle-Navbar");;
+        var menu_icon = document.getElementById("menu-icon");
+        var middle_Navbar = document.querySelector(".middle-Navbar");
 
-        var right_Navbar=document.querySelector(".right-Navbar");
-      
+        var right_Navbar = document.querySelector(".right-Navbar");
 
-        function toggleMenu(){
 
-            if(middle_Navbar.style.display==="none" || right_Navbar.style.display==="none"){
+        function toggleMenu() {
 
-                middle_Navbar.style.display="flex";
-                right_Navbar.style.display="flex";
+            if (middle_Navbar.style.display === "none" || right_Navbar.style.display === "none") {
+
+                middle_Navbar.style.display = "flex";
+                right_Navbar.style.display = "flex";
             }
-        
-        
-    
 
-            else{
-                middle_Navbar.style.display="none";
-                right_Navbar.style.display="none";
+
+
+
+            else {
+                middle_Navbar.style.display = "none";
+                right_Navbar.style.display = "none";
 
             }
         }
 
     </script>
-
     <script src="https://kit.fontawesome.com/de026f08b9.js" crossorigin="anonymous"></script>
 
 </body>
