@@ -1,0 +1,64 @@
+@media (max-width:600px){
+
+
+    .servicesMainPart{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.serviceBlockLeft{
+
+    margin-top: 0.3rem;
+}
+
+
+.serviceBlockRight button{
+
+    margin-top: 0.3rem;
+}
+
+
+.servicesLowerPart{
+
+    display: grid;
+    width:90%;
+    margin: auto;
+    /* grid-template-rows: 1fr; */
+    /* grid-template-columns: 25% 25% 25%; */
+    grid-template-columns:
+     repeat(auto-fit,minmax(300px,1fr));
+    row-gap: 25px;
+    
+    direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.serviceblockUpperPart {
+
+    display: flex;
+    flex-direction: row;
+    margin: auto;   
+    padding: 15px 10px 20px 20px;
+   
+   
+}
+
+.serviceblockLowerPart{
+
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+
+
+
+}

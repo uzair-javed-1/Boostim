@@ -1,33 +1,37 @@
-.ClientSections{
-
-    display: grid;
-    grid-template-columns:repeat(autofit, minmax(300px,1fr));
-    grid-template-rows: repeat(autofit, minmax(300px,1fr));
-    place-items: center;
-    margin:9rem 1rem 0px 1rem;
-    padding: 1.5rem;
-    /* background-color: aqua; */
-    place-items: center;
-}
-
-.TextClient{
-
-    grid-column-start: 1;
-    grid-column-end: 3;
+@media (max-width:600px) {
     
-    font-size: 36px;
-    color:#010205;
-    /* background-color: green; */
-}
+    .ClientSections{
+       width:  100%;
+        display: grid;
+        direction: column;
+        grid-template-columns:repeat(autofit, minmax(300px,1fr));
+    }
 
-.ClientName{
-    width: 100%;
+    .TextClient{
 
-  grid-column-start: 1; 
-  grid-column-end: 2;
-    /* background-color: red; */
-}
+        grid-column-start: 1;
+        grid-column-end: 1;
+        
+    
+        font-size: 1.4rem;
+        color:#010205;
+        /* background-color: green; */
+    }
+    
+    .ClientName{
+        width: 100%;
+    
+      grid-column-start: 1; 
+      grid-column-end: 1;
+        /* background-color: red; */
+    }
+       
+        /* background-color: green; */
+    
 
+        /* background-color: green; */
+    
+    
 .circleImage{
 
     width: 70px;
@@ -36,17 +40,18 @@
     border: 2px solid rgba(255, 255, 255, 0.50);
     background: rgba(0, 0, 0, 0.20);
 
-    margin-right:20px
+    margin-right:0.4rem;
 
 }
 
 .client{
     
  
-    margin-top: 50px;
+    margin: 2rem 0rem 2rem 0rem;
     justify-items: center;
     align-items: center;
-    display: inline-flex;
+    justify-content: center;
+    display: flex;
     align-content: flex-start;
   
    
@@ -55,7 +60,7 @@
 .buttonLR{
 
     display: flex;
-padding: 16px 32px;
+padding: 1rem 2rem;
 justify-content: center;
 align-items: center;
 gap: 42px;
@@ -74,7 +79,7 @@ font-family: "Plus Jakarta Sans";
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
-line-height: 180%; /* 28.8px */
+line-height: 10px; /* 28.8px */
 text-decoration-line: underline;
 text-decoration-style: solid;
 text-decoration-skip-ink: none;
@@ -84,29 +89,20 @@ text-underline-position: from-font;
 
 justify-content: right;
 align-items: center;
+margin-top: 1rem;
 
-margin-left: 430px;
-}
-
-.dimText{
-
-    color: rgba(1, 2, 5, 0.40);
-leading-trim: both;
-text-edge: cap;
-font-family: "Plus Jakarta Sans";
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 180%;
+margin-left: 1rem;
 }
 
 
 .ClientName_Designation{
 
-    line-height: 28px;
+    line-height: 1.2rem;
 }
 
 .dark{
 
     background: black;
+}
+
 }

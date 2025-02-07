@@ -1,11 +1,14 @@
+@media (max-width:600px) {
+    
+
 .footerTop{
     margin-top: 80px;
     margin-bottom: 60px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 99%;
     flex-wrap: wrap;
-    
+        
 
     
     background:  url(../images/footer_design.png)  black 0% 0% / 78.125px 78.125px repeat;
@@ -16,8 +19,8 @@ backdrop-filter: blur(32px);
     align-self: center;
     justify-self: center;
     color:white;
-    border-radius: 20px;
-    padding: 50px;
+    border-radius: 2rem;
+    padding: 2rem;
 }
 
 .footerTop p{
@@ -28,7 +31,7 @@ leading-trim: both;
 
 text-edge: cap;
 font-family: "Plus Jakarta Sans";
-font-size: 70px;
+font-size: 2.4rem;
 font-style: normal;
 font-weight: 600;
 line-height: 130%; /* 104px */
@@ -38,20 +41,23 @@ letter-spacing: -2.4px;
 .footerTop  button{
 
     font-weight: bold;
+    width: 13rem;
+    font-size: 0.8rem;
 }
 
 .footerBottom{
-    width: 100%;
-    height: 190px;
+    width: 80%;
+    /* height: 190px; */
 
     display: grid;
-    column-gap: 10px;
+    row-gap: 10px;
     /* grid-template-columns: (433px,133px,133px,133px); */
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
  
     direction: column;
-    padding-left: 80px;
-
+    padding:1rem;
+    align-items: top;
+    justify-content: center;
 }
 
 .merge2column{
@@ -125,8 +131,8 @@ gap: 20px;
 .colGap{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    justify-self: center;
+    gap: 0.7rem;
+    justify-self: left;
 }
 
 .footerHeading{
@@ -179,3 +185,5 @@ margin:40px 0px;
     margin:80px 0px 70px 0px;
 }
 
+
+}

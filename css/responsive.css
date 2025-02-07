@@ -1,0 +1,244 @@
+@media (max-width: 600px)
+
+{ 
+
+    .Container{ 
+        
+
+       z-index: 12;
+        display: flex;
+        place-items: center;
+        /* gap: 100px 20px; */
+        width: 100vw;
+        height: 100vh;
+    }
+    
+     nav{
+        position: sticky relative;
+        top:0;
+        background-color: #FAFAFA;
+        z-index: 19;
+        place-items: center;
+        place-content: center;
+        height: 5rem;
+        
+       
+        
+    }
+    
+    .middle-Navbar{
+        position: absolute;
+        display: none;
+        flex-direction: row;
+        width: 100%; 
+        place-content: center;
+        background-color: #FAFAFA;
+        /* background-color: red; */
+        top: 5rem;
+        height: 18rem;
+        /* height: 0rem; */
+        overflow: hidden;
+       
+ 
+    
+           
+    
+    
+    }
+
+
+ 
+  
+    
+    .left-NavBar{
+       
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        /* flex-direction: column; */
+        margin: 0;
+        
+        justify-self: flex-start;
+        align-self: flex-start;
+    
+    }
+    
+    .logo img{
+    
+        /* margin-top:0.4rem; */
+       margin-right:0px;
+    }
+    .bigText{
+    
+      
+        font-weight: bold;
+        font-family: Manrope;
+        font-size: 24px;
+        color:020407;
+       
+        display: inline-block;
+    }
+    .middle-Navbar ul{
+    
+        padding:0.2rem;
+        display: flex;
+        flex-direction:column;
+        place-content: center;
+        place-items: center;
+        gap: 1.5rem;
+        
+    }
+    
+    .middle-Navbar ul li{
+        padding: 2rem;
+        font-family: "Plus Jakarta Sans", serif;
+        font-optical-sizing: auto;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        
+       
+        padding: 10px 12px;
+        text-decoration: none;
+        list-style-type: none;   
+        cursor: pointer;
+        
+        
+        
+        
+       
+       
+    }
+    
+    
+    .right-Navbar{
+        top:23rem;
+        height: 7rem;
+        /* height: 0rem; */
+        position: absolute;
+     width: 100%;
+     display: none;
+     flex-direction: row;
+     place-items: center;
+     background-color: #FAFAFA;
+     /* background-color: red; */
+     overflow: hidden;
+  
+    
+    }
+    
+    /* .right-Navbar img{
+    
+        
+    } */
+    
+    .btn-On-Nav{
+    
+        padding: 10px 32px;
+        border-radius: 20px;
+        stroke: 1px #010205 100%;
+        background:none;
+    
+    }
+    
+    .circle{
+       
+        margin-left: 4px;
+        width: 50px;
+        height: 50px;
+        background-color: #192F70;
+        border-radius: 50%;
+      
+    
+    }
+    
+    
+    .circle img{
+        
+    
+        margin: 12px 10px 10px 12px;
+    }
+    
+    .arrow-down img{
+ 
+        width: 1rem;
+        height: auto;
+        vertical-align: middle;
+        margin-top: 0;
+        justify-self: flex-end;
+      
+     
+    }
+
+   
+    
+    #menu-icon{
+
+        margin-top: 0.2rem;
+
+        padding: 0.4rem;
+        display: flex;
+        justify-self:flex-end;
+        align-self: flex-start;
+        color: red;
+        width: 2.5rem;
+        height: 2.5rem;
+       
+        
+       }   
+
+/*        
+   #menu-icon{
+    font-size: 1.4rem;
+    display: none;
+    color: black;
+    
+    width: 20rem;
+    height: 20rem;
+    
+    z-index: 99;
+    
+   }    */
+       
+       
+    
+}
+
+
+@media (min-width:1056px)
+{
+
+    .middle-Navbar ul{
+    
+        padding:2rem;
+        display: flex;
+        flex-direction:row;
+        place-content: center;
+        place-items: center;
+        gap: 1rem;
+        
+    }
+    .middle-Navbar ul li{
+        padding: 1rem 0.2rem;
+        font-family: "Plus Jakarta Sans", serif;
+        font-optical-sizing: auto;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    
+        padding: 10px 12px;
+        text-decoration: none;
+        list-style-type: none;   
+        cursor: pointer;
+       
+       
+    }
+    
+    
+    
+    
+}
