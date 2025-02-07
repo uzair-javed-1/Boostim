@@ -1,0 +1,155 @@
+.Faq{
+
+    display: grid;
+    grid-column: 1fr;
+    /* grid-template-rows: 1; */
+    width: 100%;
+    
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    background: #FFFFFF;
+   
+    margin-top:100px;
+    border-radius: 50px;
+}
+.FaqAbout{
+    grid-column-start: 1;
+    width: 100%;
+
+    padding: 20px 20px;
+    align-self: start;
+}
+
+.FaqQA{
+    width: 100%;
+    grid-column-start: 1;
+   
+    
+    align-items: center;
+    justify-content: justify;
+
+}
+
+.mediumText{
+
+    font-size: 48px;
+    font-weight: 600px;
+    color:#010205;
+    text-align: justify;
+    padding: 30px 30px 15px 30px;
+}
+
+.buttonInline{
+    display: flex;
+    width: 176px;
+    padding: 17px 16px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 32px;
+    
+ 
+}
+
+.rowInside{
+
+    display: flex;
+    align-content: center;
+    justify-content: left;
+}
+
+.rowInside a{
+
+    padding: 20px;
+    color: #010205;
+
+leading-trim: both;
+
+text-edge: cap;
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 180%; /* 28.8px */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+
+
+.buttonLR1{
+
+display: flex;
+padding: 0px 32px;
+justify-content: center;
+align-items: center;
+/* gap: 42px; */
+height: 55px;
+border-radius: 70px;
+border: 1px solid #010205;
+margin: 10px 20px;
+background-color: transparent;
+font-family: 'Manrope', sans-serif;
+color:#010205;
+font-weight: bold;
+}
+
+
+.questionHeading{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding:20px 40px 20px;
+    font-size: 24px;
+    font-weight: 600px;
+    /* margin-top: 50px; */
+    color: #010205;
+  
+    
+  
+}
+
+.questionAnswer{
+    /* margin: 10px 10px; */
+   
+    text-align: justify;
+    padding:10px 40px 20px 40px;
+    margin-top:10px;
+}   
+
+.BottomBorder {
+
+    border-bottom: 1px solid black;
+}
+
+.FaqQAInnerContainer{
+
+margin:100px 0px 60px 0px;
+}
+
+
+.questionHeading img{
+
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+.displayHidden{
+
+    display: none;
+}
+
+.questionAnswerLast{
+    /* margin: 10px 10px; */
+   
+    text-align: justify;
+    padding:10px 40px 0px 40px;
+    margin-top:10px;
+}   

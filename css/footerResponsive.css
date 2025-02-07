@@ -1,0 +1,189 @@
+@media (max-width:600px) {
+    
+
+.footerTop{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    flex-wrap: wrap;
+        
+
+    
+    background:  url(../images/footer_design.png)  black 0% 0% / 78.125px 78.125px repeat;
+
+
+    background-size: cover;
+backdrop-filter: blur(32px);
+    align-self: center;
+    justify-self: center;
+    color:white;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.footerTop p{
+
+    color: #FFF;
+
+leading-trim: both;
+
+text-edge: cap;
+font-family: "Plus Jakarta Sans";
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 104px */
+letter-spacing: -2.4px;
+}
+
+.footerTop  button{
+
+    font-weight: bold;
+    width: 13rem;
+    font-size: 0.8rem;
+}
+
+.footerBottom{
+    width: 80%;
+    /* height: 190px; */
+
+    display: grid;
+    row-gap: 10px;
+    /* grid-template-columns: (433px,133px,133px,133px); */
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+ 
+    direction: column;
+    padding:1rem;
+    align-items: top;
+    justify-content: center;
+}
+
+.merge2column{
+
+    grid-column: 1 / span 2;
+}
+
+.flex{
+
+    display: flex;
+    align-self: left;
+    justify-self: left;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.MarginLeft{
+
+    margin-left: 22px;
+}
+
+.marginLLittle{
+    margin-left: 5px;
+}
+
+.maxWidth{
+
+    max-width: 140px;
+}
+
+.size{
+
+width: 51px;
+height: 51px;
+}
+
+.footerLogo{
+
+    color: #020407;
+
+font-family: Manrope;
+font-size: 37.091px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.855px;
+}
+
+.littleText1{
+
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 500;
+    color:#878C91;
+    padding: 15px 0px;
+    text-align: justify;
+
+    line-height: 20px;
+
+}
+.icons{
+
+    display: flex;
+align-items: flex-start;
+gap: 20px;
+/* padding: 20px; */
+}
+
+.colGap{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    justify-self: left;
+}
+
+.footerHeading{
+
+    color: #192031;
+
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.18px;
+}
+
+.footerSubheading{
+    color: #9B9B9C;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    
+    
+    
+
+
+}
+
+.footerText{
+
+    color: #9B9B9C;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+margin:40px 0px;
+}
+
+.marginBottom{
+
+    margin-bottom: 15px;
+}
+
+.mTB{
+
+    margin:80px 0px 70px 0px;
+}
+
+
+}
